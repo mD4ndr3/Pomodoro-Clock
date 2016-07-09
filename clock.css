@@ -1,0 +1,75 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  font-family: lobster;
+  font-size: 70px;
+}
+
+h3 {
+  margin: 20px 10px 10px 10px;
+}
+
+.session-length {
+  display: inline-block;
+  text-align: center;
+}
+
+.break-length {
+  display: inline-block;
+  text-align: center;
+}
+
+.controls {
+  display: inline-block;
+  text-align: center;
+}
+.control-panel {
+  width: 100%;
+  text-align: center;
+}
+.title {
+  font-family: lobster;
+}
+
+.controls {
+  margin: 20px;
+}
+
+#circle {
+  border-radius: 50%;
+  width: 450px;
+    height: 450px;
+    background: green;
+    border: 8px black solid;
+    margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+
+#circle span {
+  height: 450px;
+  display: inline-block;
+  zoom: 0.25;
+}
+
+#session-plus {
+  cursor: pointer;
+}
+
+#session-minus {
+  cursor: pointer;
+}
+
+#break-plus {
+  cursor: pointer;
+}
+
+#break-minus {
+  cursor: pointer;
+}

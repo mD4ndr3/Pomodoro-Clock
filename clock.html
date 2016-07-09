@@ -1,0 +1,46 @@
+<head>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="clock.js"></script>
+  <script src="https://use.fontawesome.com/3708dac087.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="clock.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+</head>
+<body>
+  <h1>Pomodoro Clock</h1>
+    <div class="content">
+      <div class="control-panel">
+        <div class="session-length-div controls">
+          <h3 class="title" id="session-length-title">Session Length</h3>
+          <h3 class="session-length" id="session-minus">-</h3>
+          <h3 class="session-length" id="session-length-display">25</h3>
+          <h3 class="session-length" id="session-plus">+</h3>
+        </div>
+
+        <div class="break-length-div controls">
+          <h3 class="title" id="break-length-title">Break Length</h3>
+          <h3 class="break-length" id="break-minus">-</h3>
+          <h3 class="break-length" id="break-length-display">5</h3>
+          <h3 class="break-length" id="break-plus">+</h3>
+        </div>
+      </div>
+    </div>
+
+      <!-- Start of clock -->
+      <div id="circle">
+        <span></span><h1 id="timer">Session<br>Test</h1>
+    </div>
+
+    <!-- test buttons -->
+
+<button type="button" class="btn btn-default" aria-label="Left Align" id="start">
+  <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+</button>
+<button type="button" class="btn btn-default" aria-label="Left Align" id="stop">
+  <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+</button>
+<button type="button" class="btn btn-default" aria-label="Left Align" id="reset">
+  <span>Reset</span>
+</button>
+</div>
+</body>
