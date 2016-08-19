@@ -1,75 +1,69 @@
 body {
-  color: white;
   background-color: black;
+  color: white;
+  text-align: center;
 }
 
 h1 {
-  text-align: center;
   font-family: Lobster;
   font-size: 70px;
+  text-align: center;
 }
 
 h3 {
   margin: 20px 10px 10px 10px;
 }
 
-.session-length {
-  display: inline-block;
-  text-align: center;
-}
-
-.break-length {
-  display: inline-block;
-  text-align: center;
-}
-
+.session-length,
+.break-length,
 .controls {
   display: inline-block;
   text-align: center;
-}
-.control-panel {
-  width: 100%;
-  text-align: center;
-}
-.title {
-  font-family: Lobster;
 }
 
 .controls {
   margin: 20px;
 }
 
-#circle {
-  border-radius: 50%;
-  width: 450px;
-    height: 450px;
-    background: green;
-    border: 8px black solid;
-    margin: 0 auto;
-  margin-top: 25px;
+.control-panel {
   text-align: center;
+  width: 100%;
+}
+
+.title {
+  font-family: Lobster;
+}
+
+#circle {
+  background: green;
+  border: 8px black solid;
+  border-radius: 50%;
   color: black;
   cursor: pointer;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+  width: 450px;
 }
 
 #circle span {
-  height: 450px;
   display: inline-block;
+  height: 450px;
   zoom: 0.25;
 }
 
-#session-plus {
+.plus-minus-button {
   cursor: pointer;
 }
 
-#session-minus {
-  cursor: pointer;
+.buttons {
+  text-align: center;
 }
 
-#break-plus {
-  cursor: pointer;
-}
-
-#break-minus {
-  cursor: pointer;
+.btn {
+  font-weight: bold;
+  height: 80px;
+  margin: 20px;
+  width: 80px;
 }
